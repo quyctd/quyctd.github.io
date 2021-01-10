@@ -1,7 +1,13 @@
 @import "../../styles/variables";
 
 .container {
-    padding: 1rem 2rem;
-    display: flex;
-    align-items: center;
+  padding: 1rem 2rem;
+}
+
+.main {
+  min-height: 90vh;
+}
+
+footer {
+  text-align: right;
 }
