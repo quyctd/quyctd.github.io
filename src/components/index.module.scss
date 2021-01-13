@@ -26,6 +26,17 @@
   min-height: 90vh;
 }
 
+.socialIcons {
+  font-size: 40px;
+  a {
+    margin-right: 10px;
+    color: #eee;
+    &:hover {
+      color: #808080;
+    }
+  }
+}
+
 footer {
   text-align: right;
 }
