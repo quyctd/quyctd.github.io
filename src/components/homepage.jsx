@@ -9,10 +9,10 @@ const Homepage = () => {
     <>
       <div className={styles.container}>
         <div className={styles.main}>
-          <h1>
+          <h1 className={styles.heading}>
             Hi there 👋
             <br />
-            I’m Dinh Quy
+            I’m Dinh Cong Quy
           </h1>
           <div className={styles.socialIcons}>
             <a

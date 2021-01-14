@@ -37,6 +37,13 @@
   }
 }
 
+.heading {
+  font-family: $display-font;
+  font-weight: 500;
+  font-size: 3.625rem;
+  text-transform: capitalize;
+}
+
 footer {
   text-align: right;
 }
