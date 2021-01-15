@@ -30,9 +30,11 @@
   font-size: 40px;
   a {
     margin-right: 10px;
-    color: #eee;
+    opacity: 0.5;
+    color: #dae1e7;
     &:hover {
-      color: #808080;
+      opacity: 1;
+      color: #eee;
     }
   }
 }
