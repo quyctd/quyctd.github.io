@@ -40,7 +40,9 @@ const Homepage = () => {
           <p>I am a software engineer from Vietnam 🇻🇳</p>
           <p>
             I am interested in developing a wide range of skills in diverse
-            fields that would complement each other in unexpected ways.
+            fields that would complement each other in unexpected ways. So I
+            engrained this idea to my lifestyle, and created a goal of learning
+            one new thing in depth every trimester.
           </p>
         </div>
         <footer>Built and Designed with ❤️</footer>
