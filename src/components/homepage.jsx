@@ -9,6 +9,7 @@ const Homepage = () => {
     <>
       <div className={styles.container}>
         <div className={styles.main}>
+          <img src="/my.JPG" alt="quyctd" className={styles.avatar} />
           <h1 className={styles.heading}>
             Hi there 👋
             <br />

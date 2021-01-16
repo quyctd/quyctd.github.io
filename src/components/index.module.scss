@@ -23,7 +23,14 @@
 }
 
 .main {
-  min-height: 90vh;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 .socialIcons {
