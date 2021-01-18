@@ -23,10 +23,9 @@
 }
 
 .main {
-  display: flex;
+  position: relative;
   height: 100vh;
-  justify-content: center;
-  flex-direction: column;
+  margin-top: 150px;
 }
 
 .avatar {
