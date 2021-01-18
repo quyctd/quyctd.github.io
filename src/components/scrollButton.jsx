@@ -1,13 +1,15 @@
 import React from "react";
 
+import styles from "./scrollButton.module.scss";
+
 const ScrollButton = () => {
   return (
-    <span className="scroll-btn">
-      <p>
-        <span className="mouse">
+    <span className={styles.scrollBtn}>
+      <a href="/">
+        <span className={styles.mouse}>
           <span />
         </span>
-      </p>
+      </a>
     </span>
   );
 };

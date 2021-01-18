@@ -2,6 +2,7 @@ import React from "react";
 import ParticlesBg from "particles-bg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import ScrollButton from "./scrollButton";
 import styles from "./index.module.scss";
 
 const Homepage = () => {
@@ -39,14 +40,15 @@ const Homepage = () => {
             </a>
           </div>
           <p>I am a software engineer from Vietnam 🇻🇳</p>
-          <p>
+          <ScrollButton />
+          {/* <p>
             I am interested in developing a wide range of skills in diverse
             fields that would complement each other in unexpected ways. So I
             engrained this idea to my lifestyle, and created a goal of learning
             one new thing in depth every trimester.
-          </p>
+          </p> */}
         </div>
-        <footer>Built and Designed with ❤️</footer>
+        {/* <footer>Built and Designed with ❤️</footer> */}
       </div>
       <ParticlesBg type="cobweb" color="#34b4eb" num={150} bg />
     </>

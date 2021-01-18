@@ -54,14 +54,14 @@
     top: 29%;
   }
 }
-.scroll-btn {
+.scrollBtn {
   display: block;
   position: absolute;
   left: 0;
   right: 0;
   text-align: center;
 }
-.scroll-btn > * {
+.scrollBtn > * {
   display: inline-block;
   line-height: 18px;
   font-size: 13px;
@@ -71,19 +71,19 @@
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 2px;
 }
-.scroll-btn > *:hover,
-.scroll-btn > *:focus,
-.scroll-btn > *.active {
+.scrollBtn > *:hover,
+.scrollBtn > *:focus,
+.scrollBtn > *.active {
   color: #ffffff;
 }
-.scroll-btn > *:hover,
-.scroll-btn > *:focus,
-.scroll-btn > *:active,
-.scroll-btn > *.active {
+.scrollBtn > *:hover,
+.scrollBtn > *:focus,
+.scrollBtn > *:active,
+.scrollBtn > *.active {
   opacity: 0.8;
   filter: alpha(opacity=80);
 }
-.scroll-btn .mouse {
+.scrollBtn .mouse {
   position: relative;
   display: block;
   width: 35px;
@@ -95,7 +95,7 @@
   border: 3px solid white;
   border-radius: 23px;
 }
-.scroll-btn .mouse > * {
+.scrollBtn .mouse > * {
   position: absolute;
   display: block;
   top: 29%;
