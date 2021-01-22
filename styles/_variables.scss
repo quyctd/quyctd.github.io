@@ -1,5 +1,14 @@
 // Colors variables
 $color-background: #131313;
 $color-text: #e4e4e4;
+$color-border: #dae1e7;
+$color-accent: #ffda16;
+
+// Background
+$bg-grad: radial-gradient(
+  380.05% 412.85% at 171.84% 379.12%,
+  #34ffce 0%,
+  #ffda16 100%
+);
 
 $display-font: "Poppins", sans-serif;

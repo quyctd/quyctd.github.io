@@ -5,3 +5,120 @@
   grid-template: auto 1fr auto/auto minmax(auto, 1440px) auto;
   min-height: 100%;
 }
+
+.appMain {
+  grid-column: 2/3;
+}
+
+.layoutContainer {
+  margin: 0 1.5rem;
+  grid-column-gap: 15px;
+  column-gap: 15px;
+  position: relative;
+  min-height: 100%;
+
+  @media (min-width: 798px) {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+    align-content: baseline;
+  }
+}
+
+.layoutContainerStrip {
+  @media (min-width: 798px) {
+    position: absolute;
+    top: -75px;
+    bottom: -116px;
+    width: 1px;
+    background-color: #272727;
+    z-index: -1;
+    opacity: 0.5;
+  }
+}
+
+.homeHero {
+  margin-bottom: 70px;
+  @media (min-width: 798px) {
+    grid-column: 1/13;
+    margin-top: 128px;
+    margin-bottom: 192px;
+  }
+}
+
+.heroImg {
+  margin-bottom: 0.5rem;
+  position: relative;
+  border-radius: 50%;
+  width: 57px;
+  height: 57px;
+  img {
+    border-radius: 50%;
+    height: inherit;
+    object-fit: fill;
+  }
+  div {
+    background-image: $bg-grad;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    opacity: 0.3;
+  }
+}
+
+.heroHeading {
+  margin-bottom: 0.75rem;
+  @media (min-width: 798px) {
+    display: flex;
+    align-items: flex-end;
+  }
+  a {
+    color: $color-text;
+    opacity: 0.5;
+    display: inline-flex;
+    transition: all 0.2s ease;
+    margin-right: 1rem;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.typo {
+  font-family: $display-font;
+  font-weight: 500;
+  font-size: 2.625rem;
+  @media (min-width: 798px) {
+    font-size: 3.625rem;
+  }
+}
+
+.socialIcons {
+  margin-top: 1rem;
+  font-size: 1.75rem;
+  @media (min-width: 798px) {
+    font-size: 2.25rem;
+    position: relative;
+    bottom: 5px;
+    margin-left: 1rem;
+  }
+}
+
+.subHeading {
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+  @media (min-width: 798px) {
+    font-size: 1.75rem;
+    white-space: pre-wrap;
+  }
+}
+
+.highLight {
+  color: $color-accent;
+}
