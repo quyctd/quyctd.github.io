@@ -90,15 +90,6 @@
   }
 }
 
-.typo {
-  font-family: $display-font;
-  font-weight: 500;
-  font-size: 2.625rem;
-  @include media-mobile-up {
-    font-size: 3.625rem;
-  }
-}
-
 .socialIcons {
   margin-top: 1rem;
   font-size: 1.75rem;

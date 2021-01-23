@@ -37,7 +37,7 @@ const Homepage = () => {
                 <div />
               </div>
               <div className={styles.heroHeading}>
-                <h1 className={styles.typo}>
+                <h1 className="typo-display1">
                   Hi there 👋
                   <br />
                   My name is Dinh Cong Quy

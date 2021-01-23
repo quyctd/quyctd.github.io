@@ -1,1 +1,14 @@
-@import "../../styles/variables";
+@import "../../../styles/variables";
+@import "../../../styles/mixin";
+
+.exps {
+  margin-top: 1rem;
+  grid-column: 1/13;
+}
+
+.heading {
+  font-size: 1.75rem;
+  @include media-mobile-up {
+    font-size: 2.625rem;
+  }
+}
