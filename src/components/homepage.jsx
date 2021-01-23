@@ -43,18 +43,18 @@ const Homepage = () => {
                 </h1>
                 <h1 className={styles.socialIcons}>
                   <a
-                    href="https://github.com/quyctd"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FontAwesomeIcon icon={["fab", "github"]} />
-                  </a>
-                  <a
                     href="https://www.linkedin.com/in/andrewdinh98"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={["fab", "linkedin"]} />
+                  </a>
+                  <a
+                    href="https://github.com/quyctd"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FontAwesomeIcon icon={["fab", "github"]} />
                   </a>
                   <a
                     href="https://www.facebook.com/akashi.211"
@@ -68,13 +68,15 @@ const Homepage = () => {
 
               <h2 className={styles.subHeading}>
                 I am a&nbsp; 
-                <span className={styles.highLight}>software engineer</span>
+                <span className={styles.highLight}>
+                  {'<'}
+                  Software Ninjaneer
+                  {'>'}
+                </span>
                 &nbsp;from Vietnam 🇻🇳 
                 <br />
-                I am
-                interested in developing
-                a wide range of skills in diverse fields
-                that would complement each other in unexpected ways.
+                Who turn ☕️ into 
+                <span className={styles.highLight}>{' <code/>'}</span>
               </h2>
             </div>
           </div>
