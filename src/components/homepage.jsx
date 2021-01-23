@@ -32,14 +32,14 @@ const Homepage = () => {
           <div className={styles.homeHero}>
             <div>
               <div className={styles.heroImg}>
-                <img src="/my.jpeg" alt="quyctd" />
+                <img src="/ava.JPG" alt="quyctd" />
                 <div />
               </div>
               <div className={styles.heroHeading}>
                 <h1 className={styles.typo}>
                   Hi there 👋
                   <br />
-                  I’m Dinh Cong Quy
+                  My name is Dinh Cong Quy
                 </h1>
                 <h1 className={styles.socialIcons}>
                   <a
