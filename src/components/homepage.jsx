@@ -2,7 +2,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import Experiences from './Experiences/index.tsx';
+import Experiences from './Experiences/index';
 import styles from "./index.module.scss";
 
 const Homepage = () => {

@@ -1,4 +1,5 @@
 @import "../../styles/variables";
+@import "../../styles/mixin";
 
 .appHoly {
   display: grid;
@@ -17,7 +18,7 @@
   position: relative;
   min-height: 100%;
 
-  @media (min-width: 798px) {
+  @include media-mobile-up {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 15px;
@@ -28,7 +29,7 @@
 }
 
 .layoutContainerStrip {
-  @media (min-width: 798px) {
+  @include media-mobile-up {
     position: absolute;
     top: -75px;
     bottom: -116px;
@@ -41,7 +42,7 @@
 
 .homeHero {
   margin-bottom: 70px;
-  @media (min-width: 798px) {
+  @include media-mobile-up {
     grid-column: 1/13;
     margin-top: 128px;
     margin-bottom: 192px;
@@ -73,7 +74,7 @@
 
 .heroHeading {
   margin-bottom: 0.75rem;
-  @media (min-width: 798px) {
+  @include media-mobile-up {
     display: flex;
     align-items: flex-end;
   }
@@ -93,7 +94,7 @@
   font-family: $display-font;
   font-weight: 500;
   font-size: 2.625rem;
-  @media (min-width: 798px) {
+  @include media-mobile-up {
     font-size: 3.625rem;
   }
 }
@@ -101,7 +102,7 @@
 .socialIcons {
   margin-top: 1rem;
   font-size: 1.75rem;
-  @media (min-width: 798px) {
+  @include media-mobile-up {
     font-size: 2.25rem;
     position: relative;
     bottom: 5px;
@@ -114,7 +115,7 @@
   margin-bottom: 1.5rem;
   font-weight: 400;
   font-size: 1.25rem;
-  @media (min-width: 798px) {
+  @include media-mobile-up {
     font-size: 1.75rem;
     white-space: pre-wrap;
   }
@@ -129,12 +130,12 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  @media (min-width: 798px) {
+  @include media-mobile-up {
     display: block;
   }
   a {
     margin-bottom: 1rem;
-    @media (min-width: 798px) {
+    @include media-mobile-up {
       margin-bottom: 0;
       margin-right: 1rem;
     }
