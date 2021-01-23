@@ -2,6 +2,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import Experiences from './Experiences/index.tsx';
 import styles from "./index.module.scss";
 
 const Homepage = () => {
@@ -84,6 +85,7 @@ const Homepage = () => {
               </div>
             </div>
           </div>
+          <Experiences />
         </div>
       </div>
     </div>
