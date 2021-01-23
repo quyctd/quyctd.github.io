@@ -78,6 +78,10 @@ const Homepage = () => {
                 Who turn ☕️ into 
                 <span className={styles.highLight}>{' <code/>'}</span>
               </h2>
+              <div className={styles.heroButtons}>
+                <a href="#exp" role="button" className="buttonSolid">Experiences</a>
+                <a href="#touch" role="button" className="buttonGhost">Get in Touch</a>
+              </div>
             </div>
           </div>
         </div>

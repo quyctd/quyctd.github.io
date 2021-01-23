@@ -110,6 +110,7 @@
 }
 
 .subHeading {
+  margin-top: 1rem;
   margin-bottom: 1.5rem;
   font-weight: 400;
   font-size: 1.25rem;
@@ -121,4 +122,21 @@
 
 .highLight {
   color: $color-accent;
+}
+
+.heroButtons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  @media (min-width: 798px) {
+    display: block;
+  }
+  a {
+    margin-bottom: 1rem;
+    @media (min-width: 798px) {
+      margin-bottom: 0;
+      margin-right: 1rem;
+    }
+  }
 }
