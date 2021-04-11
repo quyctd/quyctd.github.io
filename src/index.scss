@@ -24,7 +24,7 @@ p {
 *,
 :after,
 :before {
-  border: 0 solid $color-border;
+  box-sizing: border-box;
 }
 
 blockquote,
@@ -57,43 +57,4 @@ button {
   text-align: center;
   font-weight: 500;
   cursor: pointer;
-}
-
-.buttonSolid {
-  background-color: $color-primary;
-  color: $color-black;
-  &:focus,
-  &:hover {
-    background-color: $color-primary-800;
-  }
-}
-
-.buttonGhost {
-  background-color: transparent;
-  color: $color-primary;
-  &:focus,
-  &:hover {
-    background-color: $color-primary-400;
-  }
-}
-
-.typo-display1,
-.typo-display2,
-.typo-display3 {
-  font-family: $display-font;
-  font-weight: 500;
-}
-
-.typo-display1 {
-  font-size: 2.625rem;
-  @include media-mobile-up {
-    font-size: 3.625rem;
-  }
-}
-
-.typo-display2 {
-  font-size: 1.75rem;
-  @include media-mobile-up {
-    font-size: 2.625rem;
-  }
 }

@@ -1,19 +1,9 @@
-// Colors variables
-$color-background: #131313;
-$color-text: #e4e4e4;
-$color-border: #dae1e7;
-$color-accent: #ffda16;
-$color-primary: #32ff84;
-$color-black: #131313;
-$color-primary-800: #0fd75f;
-$color-primary-400: #0a331a;
-$color-primary-200: #05190d;
-
-// Background
-$bg-grad: radial-gradient(
-  380.05% 412.85% at 171.84% 379.12%,
-  #34ffce 0%,
-  #ffda16 100%
-);
-
-$display-font: "Poppins", sans-serif;
+/* Breakpoint - start */
+$xxs: 480px;
+$xs: 576px;
+$sm: 768px;
+$md: 992px;
+$lg: 1280px;
+$xl: 1368px;
+$xxl: 2001px;
+/* Breakpoint - end */
