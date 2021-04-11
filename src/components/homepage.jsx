@@ -1,91 +1,34 @@
 /* eslint-disable prettier/prettier */
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import Experiences from './Experiences/index';
 import styles from "./index.module.scss";
 
 const Homepage = () => {
   return (
-    <div className={styles.appHoly}>
-      <div className={styles.appMain}>
-        <div className={styles.layoutContainer}>
-          <div
-            className={styles.layoutContainerStrip}
-            style={{ gridColumnStart: 1, transform: "translateX(-8px)" }}
-          />
-          <div
-            className={styles.layoutContainerStrip}
-            style={{ gridColumnStart: 4, transform: "translateX(-8px)" }}
-          />
-          <div
-            className={styles.layoutContainerStrip}
-            style={{ gridColumnStart: 7, transform: "translateX(-8px)" }}
-          />
-          <div
-            className={styles.layoutContainerStrip}
-            style={{ gridColumnStart: 10, transform: "translateX(-8px)" }}
-          />
-          <div
-            className={styles.layoutContainerStrip}
-            style={{ gridColumnStart: 13, transform: "translateX(-8px)" }}
-          />
-          <div className={styles.homeHero}>
-            <div>
-              <div className={styles.heroImg}>
-                <img src="/ava.JPG" alt="quyctd" />
-                <div />
-              </div>
-              <div className={styles.heroHeading}>
-                <h1 className="typo-display1">
-                  Hi there 👋
-                  <br />
-                  My name is Dinh Cong Quy
-                </h1>
-                <h1 className={styles.socialIcons}>
-                  <a
-                    href="https://www.linkedin.com/in/andrewdinh98"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FontAwesomeIcon icon={["fab", "linkedin"]} />
-                  </a>
-                  <a
-                    href="https://github.com/quyctd"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FontAwesomeIcon icon={["fab", "github"]} />
-                  </a>
-                  <a
-                    href="https://www.facebook.com/akashi.211"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FontAwesomeIcon icon={["fab", "facebook-square"]} />
-                  </a>
-                </h1>
-              </div>
-
-              <h2 className={styles.subHeading}>
-                I am a&nbsp; 
-                <span className={styles.highLight}>
-                  {'<'}
-                  Software Ninjaneer
-                  {'>'}
-                </span>
-                &nbsp;from Vietnam 🇻🇳 
-                <br />
-                Who turn ☕️ into 
-                <span className={styles.highLight}>{' <code/>'}</span>
-              </h2>
-              <div className={styles.heroButtons}>
-                <a href="#exp" role="button" className="buttonSolid">Experiences</a>
-                <a href="#touch" role="button" className="buttonGhost">Get in Touch</a>
-              </div>
+    <div className={styles.app}>
+      <div className={styles.wrapper}>
+        <div className={styles.container}>
+          <div className={styles.info}>
+            <h1>Dinh Cong Quy</h1>
+            <h3>Software Engineer</h3>
+            <div className={styles.socials}>
+              Github, Facebook
             </div>
+            <p className={styles.description}>
+              Hi there, I am quyctd! 👋
+              <br />
+              I am a software engineer from Vietnam 🇻🇳
+              <br />
+              I am interested in developing a wide range of skills in diverse fields that would complement each other in unexpected ways. So I engrained this idea to my lifestyle, and created a goal of learning one new thing in depth every trimester.
+            </p>
           </div>
-          <Experiences />
+          <div className={styles.avaContainer}>
+            <div className={styles.avatar} />
+          </div>
+        </div>
+        <div className={styles.contact}>
+          <p>Interest in collaboration?</p>
+          <button type='button'>Email me</button>
         </div>
       </div>
     </div>

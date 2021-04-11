@@ -1,15 +1,11 @@
 @import "../styles/variables";
 @import "../styles/mixin";
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
 body {
   margin: 0;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $color-text;
-  background-color: $color-background;
 }
 
 code {
