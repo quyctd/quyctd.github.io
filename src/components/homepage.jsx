@@ -20,17 +20,17 @@ const Homepage = () => {
               <div className={styles.spacer} />
               <ul className={styles.socials}>
                 <li>
-                  <a href="https://twitter.com/_ijjk" target="_blank" rel="noreferrer" className="link_old_link__3zaPq">
+                  <a href="https://github.com/quyctd" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={['fab', 'github-square']} />
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/_ijjk" target="_blank" rel="noreferrer" className="link_old_link__3zaPq">
+                  <a href="https://www.linkedin.com/in/quyctd/" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={['fab', 'linkedin']} />
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/_ijjk" target="_blank" rel="noreferrer" className="link_old_link__3zaPq">
+                  <a href="https://www.facebook.com/akashi.211/" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={['fab', 'facebook-square']} />
                   </a>
                 </li>
