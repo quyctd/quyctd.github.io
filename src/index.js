@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.scss";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
-  faGithub,
+  faGithubSquare,
   faLinkedin,
   faFacebookSquare,
 } from "@fortawesome/free-brands-svg-icons";
@@ -11,7 +11,7 @@ import {
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-library.add(faGithub, faLinkedin, faFacebookSquare);
+library.add(faGithubSquare, faLinkedin, faFacebookSquare);
 
 ReactDOM.render(
   <React.StrictMode>

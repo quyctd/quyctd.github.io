@@ -15,10 +15,9 @@
 }
 
 .wrapper {
-  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  width: 1048px;
+  max-width: 1048px;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -26,17 +25,63 @@
 .info {
   display: flex;
   flex-direction: column;
+  h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+}
+
+.jobTitle {
+  font-size: 1.25rem;
+  color: #444;
+}
+
+.spacer {
+  display: block;
+  width: 1px;
+  height: 1px;
+  min-width: 1px;
+  min-height: 1px;
+  margin-left: calc(24px - 1px);
+  margin-top: calc(24px - 1px);
+  user-select: none;
+}
+
+.socials {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    color: #333;
+    opacity: 0.4;
+    transition: opacity 300ms;
+    &:not(:first-of-type) {
+      margin-left: 12px;
+    }
+    &:hover {
+      opacity: 1;
+    }
+    a {
+      color: inherit;
+    }
+    svg {
+      color: inherit;
+      font-size: 28px !important;
+    }
+  }
 }
 
 .avaContainer {
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
 }
 
 .avatar {
   height: 440px;
   width: 315px;
-  background-image: url(https://assets.vercel.com/image/upload/q_auto/front/about/team-members/jj4.png);
+  background-image: url(https://res.cloudinary.com/flask-image/image/upload/c_fill,g_faces,h_880,w_630,y_0/v1618155776/IMG_4484.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -45,7 +90,14 @@
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
   overflow: hidden;
   max-width: 100%;
-  filter: grayscale(1);
+  transition: all 0.2s ease;
+
+  &:hover,
+  &:focus,
+  &:active {
+    box-shadow: 0 50px 100px rgba(0, 0, 0, 0.12);
+    transform: scale(1.05) translate3d(0px, -10px, 0px);
+  }
 }
 
 .description {
@@ -53,11 +105,42 @@
   padding-top: 48px;
   border-top: 1px solid #eaeaea;
   font-size: 1rem;
+  line-height: 1.7;
 }
 
 .contact {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  padding: 72px 0;
+  padding: 96px 0 24px;
+  p {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  button {
+    text-transform: capitalize;
+    margin-left: 48px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    font-weight: bold;
+    height: 50px;
+    padding: 0 25px;
+    font-size: 1rem;
+    min-width: 200px;
+    color: #fff;
+    background-color: #0070f3;
+    border: 1px solid #0070f3;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    outline: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+      transform: translate3d(0px, -1px, 0px);
+    }
+  }
 }
